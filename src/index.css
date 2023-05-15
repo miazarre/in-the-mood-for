@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+ @apply bg-gray-900 }
 
+
+.menu-item {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;  
+}
