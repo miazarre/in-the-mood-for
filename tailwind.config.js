@@ -5,9 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        customBackground: '#000',
-      }
+      fontFamily: { 
+        'sans' : ['"Alumni Sans"', 'Fallback Font'],
+         }
     },
   },
   plugins: [],

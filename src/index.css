@@ -2,8 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
+
+
 body {
  @apply bg-gray-900 }
+
+.icon-container {
+    transition: color 0.3s;
+  }
+
+  .group:hover .icon {
+    color: #881337;
+  }
+
+  .icon {
+    @apply text-teal-200; /* Apply Tailwind utility classes */
+  }
 
 
 .menu-item {
