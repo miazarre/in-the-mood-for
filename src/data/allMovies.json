@@ -1,0 +1,360 @@
+[
+    {
+        "id": "1",
+        "title": "Beef",
+        "type": "serie",
+        "image":"https://www.apmmusic.com/sites/default/files/images/blog/attachment-beef-score-the-haxan-cloak.jpg",
+        "description":"A near accident in a parking lot turns two strangers into enemies. The tit-for-tat relationship that develops leads to escalating acts of revenge as Amy and Danny learn about each other's identities and families and become more and more involved in each other's lives.",
+        "moods": ["rage","love"]
+
+    },
+    {
+        "id": "2",
+        "title": "Titane",
+        "type": "movie",
+        "image":"https://fr.web.img2.acsta.net/pictures/23/05/03/10/30/0617810.jpg",
+        "description":" Alexia, a woman who, after being injured in a car accident as a child, has a titanium plate fitted into her head.",
+        "moods": ["unsual","fear"]
+
+    },
+    {
+        "id": "3",
+        "title": "Somewhere Boy",
+        "type": "serie",
+        "image":"https://www.apmmusic.com/sites/default/files/images/blog/attachment-beef-score-the-haxan-cloak.jpg",
+        "description":"The series focuses on teenager Danny, who since his mother's fatal accident, has been isolated from the outside world by his father. When Danny realises that monsters do not exist, like his father has claimed, he questions his entire existence.",
+        "moods": ["something","unsual"]
+
+    },
+    {
+        "id": "4",
+        "title": "What we do in the Shadows",
+        "type": "serie",
+        "image":"https://sm.ign.com/t/ign_fr/cover/w/what-we-do/what-we-do-in-the-shadows-tv-series_gbtp.300.jpg",
+        "description":"Set primarily in Staten Island, New York City, New York, What We Do in the Shadows follows the lives of three traditional vampires, Nandor, Laszlo, and Nadja; Colin Robinson, an energy vampire; and Guillermo, Nandor's familiar. The series revolves around the vampires interacting with the modern world and other supernatural beings.",
+        "moods": ["laugh"]
+
+    },
+    {
+        "id": "5",
+        "title": "The Young Offenders",
+        "type": "movie",
+        "image":"https://resizing.flixster.com/XjG3rpiCVqoJ88U2LpoWwut88Vw=/300x300/v2/https://flxt.tmsimg.com/assets/p15094895_b_v9_aa.jpg",
+        "description":"Two teenage boys cycle 160km on stolen bikes pursued by police to find a missing bale of cocaine worth 7 million euro. Set around the real event of Ireland's biggest cocaine seizure in 2007 of 440 million euro.",
+        "moods":["laugh"]
+    },
+    {
+        "id": "6",
+        "title": "Conversations with Friends",
+        "type": "serie",
+        "image":"https://www.guide-irlande.com/wp-content/uploads/2022/08/conversation-with-friends.jpg",
+        "description":"Two Dublin college students, Frances and Bobbi, and the strange and unexpected connection they forge with married couple, Melissa and Nick.",
+        "moods":["love","something"]
+
+    },
+    {
+        "id": "7",
+        "title": "For All Mankind",
+        "type": "serie",
+        "image":"https://fr.web.img6.acsta.net/pictures/19/09/16/15/35/0066029.jpg",
+        "description":"n an alternative version of 1969, the Soviet Union beats the United States to the Moon, and the space race continues on for decades with still grander challenges and goals.",
+        "moods": ["space"]
+
+    },
+    {
+        "id": "8",
+        "title": "Chungking Express",
+        "type": "movie",
+        "image":"https://fr.web.img2.acsta.net/medias/nmedia/18/69/14/99/19057267.jpg",
+        "description":"Two melancholy Hong Kong policemen fall in love: one with a mysterious female underworld figure, the other with a beautiful and ethereal waitress at a late-night restaurant he frequents.",
+        "moods": ["love"]
+
+    },
+    {
+        "id": "9",
+        "title": "Moon",
+        "type": "movie",
+        "image":"https://www.apmmusic.com/sites/default/files/images/blog/attachment-beef-score-the-haxan-cloak.jpg",
+        "description":"Astronaut Sam Bell has a quintessentially personal encounter toward the end of his three-year stint on the Moon, where he, working alongside his computer, GERTY, sends back to Earth parcels of a resource that has helped diminish our planet's power problems.",
+        "moods":["space"]
+    },
+    {
+        "id": "10",
+        "title": "Twin Peaks",
+        "type": "serie",
+        "image":"https://flxt.tmsimg.com/assets/p7893268_b_v8_ad.jpg",
+        "description":"An idiosyncratic FBI agent investigates the murder of a young woman in the even more idiosyncratic town of Twin Peaks.",
+        "moods": ["something","unsual"]
+
+    },
+    {
+        "id": "11",
+        "title": "Twin Peaks the Return",
+        "type": "serie",
+        "image":"https://fr.web.img4.acsta.net/pictures/17/02/24/19/14/526817.jpg",
+        "description":"Picks up 25 years after the inhabitants of a quaint northwestern town are stunned when their homecoming queen is murdered.",
+        "moods": ["unsual"]
+
+    },
+    {
+        "id": "12",
+        "title": "Black Books",
+        "type": "serie",
+        "image":"https://flxt.tmsimg.com/assets/p212667_b_v9_ag.jpg",
+        "description":"Bernard Black runs a book shop, though his customer service skills leave something to be desired. He hires Manny as an employee. Fran runs the shop next door. Between the three of them many adventures ensue.",
+        "moods": ["laugh"]
+
+    },
+    {
+        "id": "13",
+        "title": "The Tatami Galaxy",
+        "type": "serie",
+        "image":"https://m.media-amazon.com/images/M/MV5BODVjY2ViOWYtNjI0ZS00OGI4LTk3ZGMtOGJmMTczM2U5MTY5XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+        "description":"When a nameless student at Kyoto University encounters a demigod one night, he asks to relive the past three years in order to win the heart of Ms. Akashi, the object of his affection.",
+        "moods": ["unsual"]
+
+    },
+    {
+        "id": "14",
+        "title": "The End of the F***ing World",
+        "type": "serie",
+        "image":"https://fr.web.img5.acsta.net/pictures/18/01/03/17/51/4133962.jpg",
+        "description":"James is 17 and is pretty sure he is a psychopath. Alyssa, also 17, is the cool and moody new girl at school. The pair make a connection and she persuades him to embark on a road trip in search of her real father.",
+        "moods": ["love"]
+
+    },
+    {
+        "id": "15",
+        "title": "Mystery Train",
+        "type": "movie",
+        "image":"https://www.ecranlarge.com/uploads/image/001/233/f11xq7dbghz9udc3dabldagexvh-913.jpg",
+        "description":"Three stories are connected by a Memphis hotel and the spirit of Elvis Presley.",
+        "moods": ["unsual","love"]
+
+    },
+    {
+        "id": "16",
+        "title": "Koko-di Koko-da",
+        "type": "movie",
+        "image":"https://fr.web.img3.acsta.net/pictures/19/10/16/09/48/1324565.jpg",
+        "description":"As a couple goes on a trip to find their way back to each other, a sideshow artist and his shady entourage emerge from the woods, terrorizing them, luring them deeper into a maelstrom of psychological terror and humiliating slapstick.",
+        "moods": ["fear"]
+
+    },
+    {
+        "id": "17",
+        "title": "The King of Staten Island",
+        "type": "movie",
+        "image":"https://fr.web.img3.acsta.net/pictures/20/06/24/13/27/4350158.jpg",
+        "description":"Scott has been a case of arrested development since his firefighter dad died. He spends his days smoking weed and dreaming of being a tattoo artist until events force him to grapple with his grief and take his first steps forward in life.",
+        "moods": ["something"]
+
+    },
+    {
+        "id": "18",
+        "title": "Swallow",
+        "type": "movie",
+        "image":"https://fr.web.img2.acsta.net/pictures/19/11/15/14/16/5852884.jpg",
+        "description":"Hunter, a newly pregnant housewife, finds herself increasingly compelled to consume dangerous objects. As her husband and his family tighten their control over her life, she must confront the dark secret behind her new obsession.",
+        "moods": ["unsual"]
+
+    },
+    {
+        "id": "19",
+        "title": "The Forest of Love",
+        "type": "movie",
+        "image":"https://fr.web.img6.acsta.net/pictures/20/05/27/02/33/2168844.jpg",
+        "description":"A small group of student filmmakers and a shy young girl with strict parents are simultaneously manipulated, seduced and abused by an older man. They follow his bidding, even when murder is involved.",
+        "moods": ["unsual"]
+
+    },
+    {
+        "id": "20",
+        "title": "Napoleon Dynamite",
+        "type": "movie",
+        "image":"https://i.redd.it/ys7vglcngfc11.jpg",
+        "description":"A listless and alienated teenager decides to help his new friend win the class presidency in their small western high school, while he must deal with his bizarre family life back home.",
+        "moods": ["laugh"]
+
+    },
+    {
+        "id": "21",
+        "title": "Cowboy Bebop",
+        "type": "serie",
+        "image":"https://fr.web.img6.acsta.net/pictures/21/10/20/11/44/2452579.jpg",
+        "description":"The futuristic misadventures and tragedies of an easygoing bounty hunter and his partners.",
+        "moods": ["space"]
+
+    },
+    {
+        "id": "22",
+        "title": "The Expanse",
+        "type": "serie",
+        "image":"https://fr.web.img6.acsta.net/pictures/19/11/19/12/49/5247478.jpg",
+        "description":"In the 24th century, a group of humans untangle a vast plot which threatens the Solar System's fragile state of detente.",
+        "moods": ["space"]
+
+    },
+    {
+        "id": "23",
+        "title": "Please Like Me",
+        "type": "serie",
+        "image":"https://fr.web.img6.acsta.net/pictures/16/08/08/15/06/163594.jpg",
+        "description":"Twenty something Josh is going through a number of big changes as he navigates his first decade of adulthood. After being dumped by his girlfriend, he comes to the realization that he is gay.",
+        "moods": ["something"]
+
+    },
+    {
+        "id": "24",
+        "title": "Thirteen",
+        "type": "serie",
+        "image":"https://m.media-amazon.com/images/M/MV5BMDViN2VlZWMtMThmMy00OGEwLTllMjgtODQzNTJmZWEzNGM1XkEyXkFqcGdeQXVyMjExMjk0ODk@._V1_.jpg",
+        "description":"26-year-old Ivy Moxam steps out of an ordinary house, on an ordinary street, on an ordinary day. Ivy hasn't been seen for thirteen years; she was kidnapped in 2003 at the age of thirteen.",
+        "moods": ["rage"]
+
+    },
+    {
+        "id": "25",
+        "title": "The Doom Generation",
+        "type": "movie",
+        "image":"https://upload.wikimedia.org/wikipedia/en/6/66/Doom_generation.jpg",
+        "description":"Jordan White and Amy Blue, two troubled teens, pick up an adolescent drifter, Xavier Red. Together, the threesome embark on a sex-and-violence-filled journey through an America of psychos and quickie marts.",
+        "moods": ["rage"]
+
+    },
+    {
+        "id": "26",
+        "title": "Thelma",
+        "type": "movie",
+        "image":"https://fr.web.img6.acsta.net/pictures/17/09/20/12/49/1588320.jpg",
+        "description":"A confused religious girl tries to deny her feelings for a female friend who's in love with her. This causes her suppressed subconsciously-controlled psychokinetic powers to reemerge with devastating results.",
+        "moods": ["fear"]
+
+    },
+    {
+        "id": "27",
+        "title": "The Lobster",
+        "type": "movie",
+        "image":"https://iheardthebookwasbetter2.files.wordpress.com/2017/02/lobstersmall.jpg",
+        "description":"n a dystopian near future, according to the laws of The City, single people are taken to The Hotel, where they are obliged to find a romantic partner in 45 days or they're transformed into beasts and sent off into The Woods.",
+        "moods": ["fear","love","unsual"]
+
+    },
+    {
+        "id": "28",
+        "title": "Mientras duermes",
+        "type": "movie",
+        "image":"https://pics.filmaffinity.com/Mientras_duermes-772499751-large.jpg",
+        "description":"You wake day after day to the comfort and security of your home. But how safe is it really?",
+        "moods": ["fear"]
+
+    },
+    {
+        "id": "29",
+        "title": "Lost River",
+        "type": "movie",
+        "image":"https://m.media-amazon.com/images/M/MV5BMTc4MzU4NDA2M15BMl5BanBnXkFtZTgwNTM3MDMzNDE@._V1_.jpg",
+        "description":"A single mother is swept into a dark underworld, while her teenage son discovers a road that leads him to a secret underwater town.",
+        "moods": ["fear","unsual","love"]
+
+    },
+    {
+        "id": "30",
+        "title": "Dark City",
+        "type": "movie",
+        "image":"https://c8.alamy.com/compfr/bkcnnp/dark-city-1998-poster-bkcnnp.jpg",
+        "description":"A man struggles with memories of his past, which include a wife he cannot remember and a nightmarish world no one else ever seems to wake up from.",
+        "moods": ["fear","space"]
+
+    },
+    {
+        "id": "31",
+        "title": "Lady Vengeance",
+        "type": "movie",
+        "image":"https://m.media-amazon.com/images/I/51TprlricDL._AC_SY445_.jpg",
+        "description":"After being wrongfully imprisoned for thirteen years and having her child taken away from her, a woman seeks revenge through increasingly brutal means.",
+        "moods": ["rage"]
+
+    },
+    {
+        "id": "32",
+        "title": "Kikujiro",
+        "type": "movie",
+        "image":"https://en.wikipedia.org/wiki/Kikujiro#/media/File:Kikujiro-1999-poster.jpg",
+        "description":"A young, naive boy sets out alone on the road to find his wayward mother. Soon he finds an unlikely protector in a crotchety man and the two have a series of unexpected adventures along the way.",
+        "moods": ["something","laugh","love"]
+
+    },
+    {
+        "id": "33",
+        "title": "It Comes at Night",
+        "type": "movie",
+        "image":"https://d135u4jtzauizi.cloudfront.net/ICAN_dog_poster_web.jpg",
+        "description":"Secure within a desolate home as an unnatural threat terrorizes the world, a man has established a tenuous domestic order with his wife and son. Then a desperate young family arrives seeking refuge.",
+        "moods": ["fear"]
+
+    },
+    {
+        "id": "34",
+        "title": "White Bird in a Blizzard",
+        "type": "movie",
+        "image":"https://64.media.tumblr.com/d7eb6bc07d7a0bf4a23e31b02c9a8a4f/tumblr_nezkw5AfSW1rf29u9o1_1280.jpg",
+        "description":"In 1988, a teenage girl's life is thrown into chaos when her mother disappears.",
+        "moods": ["fear","tears"]
+
+    },
+    {
+        "id": "35",
+        "title": "A Ghost Story",
+        "type": "movie",
+        "image":"https://i.pinimg.com/564x/2c/98/8d/2c988d6803cac875f03aea3c0894708b.jpg",
+        "description":"In this singular exploration of legacy, love, loss, and the enormity of existence, a recently deceased, white-sheeted ghost returns to his suburban home to try to reconnect with his bereft wife.",
+        "moods": ["tears","love"]
+
+    },
+    {
+        "id": "36",
+        "title": "March Comes Like a Lion",
+        "type": "serie",
+        "image":"https://i.pinimg.com/originals/26/b5/bf/26b5bf969ade77404b056e2bd109eef9.jpg",
+        "description":"A 17 year old socially awkward orphaned shogi player, dealing with adult problems like financial difficulties, loneliness, and depression.",
+        "moods": ["laugh","love"]
+
+    },
+    {
+        "id": "37",
+        "title": "Love, Death & Robots",
+        "type": "serie",
+        "image":"https://m.media-amazon.com/images/M/MV5BYTNiYTNkNTAtYzE3ZS00ZDQ1LWEwZTYtZjI1NzYzMWJjY2U4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+        "description":"A collection of animated short stories that span various genres including science fiction, fantasy, horror and comedy.",
+        "moods": ["fear","tears","laugh","love","rage","something","unsual","space"]
+
+    },
+    {
+        "id": "38",
+        "title": "Top of the Lake",
+        "type": "serie",
+        "image":"https://image.tmdb.org/t/p/original/wBy1R8JogtLZNyRJithLksrl9AB.jpg",
+        "description":"Obsessed with the disappearance of a 12-year-old pregnant girl near a freezing lake in New Zealand, a brave detective will find herself up against small-town secrets and a side of herself that was meticulously kept at bay.",
+        "moods": ["tears","unsual"]
+
+    },
+    {
+        "id": "39",
+        "title": "High Life",
+        "type": "movie",
+        "image":"https://m.media-amazon.com/images/M/MV5BMDNjN2NjYmItMjAyZi00NmNkLWJmYTQtYzcwZGRiM2RmNGNlXkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_.jpg",
+        "description":"A father and his daughter struggle to survive in deep space where they live in isolation.",
+        "moods": ["space"]
+
+    },
+    {
+        "id": "40",
+        "title": "Memoir of a Murderer",
+        "type": "movie",
+        "image":"https://lesrefracteurs.fr/wp-content/uploads/2021/04/la-memoire-cover.jpg",
+        "description":"A former serial killer with Alzheimer's fights to protect his daughter from her psychotic boyfriend.",
+        "moods": ["tears","fear"]
+
+    }
+]
