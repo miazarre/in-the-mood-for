@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import moodsData from "../../data/moods.json"
+
 const Home = () => {
     return(
     <>
@@ -11,32 +13,16 @@ const Home = () => {
             <a href="sencritique.com" className="text-neutral-50 my-10 hover:text-teal-200">For more ideas : senscritique.com</a> 
         <div>
         <div className="menu flex justify-between gap-x-40 text-5xl">
-            <div className="menu-item">
-            <Link to='/moods/love'className="text-white hover:text-fuchsia-500">Love</Link>
+        {moodsData.map(mood => (
+            <div className="menu-item" key={mood.id}>
+                <Link to={`/moods/${mood.name}`} className={`text-white hover:text-${mood.color}`}>
+                  {mood.name}
+                </Link>
             </div>
-            <div className="menu-item">
-            <Link to='/moods/space'className="text-white hover:text-blue-600">Space</Link>
-            </div>
-            <div className="menu-item">
-            <Link to='/moods/rage' className="text-white hover:text-red-500">Rage</Link>
-            </div>
-            <div className="menu-item">
-            <Link to='/moods/unsual' className="text-white hover:text-lime-400">Unsual</Link>
-            </div>
-            <div className="menu-item">
-            <Link to='/moods/laugh' className="text-white hover:text-orange-600">Laugh</Link>
-            </div>
-            <div className="menu-item">
-            <Link to='/moods/tears' className="text-white hover:text-sky-500">Tears</Link>
-            </div>
-            <div className="menu-item">
-            <Link to='/moods/fear' className="text-white hover:text-purple-800">Fear</Link>
-            </div><div className="menu-item">
-            <Link to='/moods/something' className="text-white hover:text-rose-400">Something</Link>
-            </div>
+            ))}
+        </div>
         </div>
     </div>
-    </div> 
     </>
    
     )
