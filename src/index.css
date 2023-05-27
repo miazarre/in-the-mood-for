@@ -18,7 +18,7 @@ body {
   }
 
   .icon {
-    @apply text-teal-200; /* Apply Tailwind utility classes */
+    @apply text-teal-200;
   }
 
 
