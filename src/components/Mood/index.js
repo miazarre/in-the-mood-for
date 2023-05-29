@@ -23,9 +23,6 @@ const Mood = () => {
 
   const sliderSettings = {
     dots: true,
-    appendDots: (dots) => (
-      <div style={{ position: 'relative', marging: '60px' }}>{dots}</div>
-    ),
     infinite: false,
     speed: 500,
     slidesToShow: 4,
@@ -68,30 +65,32 @@ const Mood = () => {
         <h2 className="text-center text-4xl sm:text-9xl font-extrabold uppercase pt-10 sm:pt-20">
           {mood}
         </h2>
-        <Slider {...sliderSettings} className="mx-2 sm:mx-4 my-8">
-          {movies.map((movie) => (
-            <div
-              key={movie.id}
-              className="max-w-xs sm:max-w-sm flex flex-col items-center mx-2 sm:mx-4 my-4 sm:my-8 rounded overflow-hidden shadow-lg"
-            >
-              <div className="flex justify-center items-center w-full h-48 sm:h-56">
-                <img
-                  className="object-contain h-full"
-                  alt="Movie Poster"
-                  src={movie.image}
-                />
+        <div className="px-6">
+          <Slider {...sliderSettings} className="mx-2 sm:mx-4 my-8">
+            {movies.map((movie) => (
+              <div
+                key={movie.id}
+                className="max-w-xs sm:max-w-sm flex flex-col items-center mx-2 sm:mx-4 my-4 sm:my-8 rounded overflow-hidden shadow-lg"
+              >
+                <div className="flex justify-center items-center w-full h-48 sm:h-56">
+                  <img
+                    className="object-contain h-full"
+                    alt="Movie Poster"
+                    src={movie.image}
+                  />
+                </div>
+                <div className="px-4 py-2 sm:px-6 sm:py-4">
+                  <h3 className="text-center text-lg sm:text-3xl font-extrabold">
+                    {movie.title}
+                  </h3>
+                  <p className="text-center text-base sm:text-xl">
+                    {movie.description}
+                  </p>
+                </div>
               </div>
-              <div className="px-4 py-2 sm:px-6 sm:py-4">
-                <h3 className="text-center text-lg sm:text-3xl font-extrabold">
-                  {movie.title}
-                </h3>
-                <p className="text-center text-base sm:text-xl">
-                  {movie.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </Slider>
+            ))}
+          </Slider>
+        </div>
       </div>
     </>
   );
