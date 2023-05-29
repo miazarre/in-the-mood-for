@@ -1,42 +1,42 @@
 [
     {
         "id": "1",
-        "name": "Love",
-        "color": "fuchsia-500"
+        "name": "love",
+        "color": "fuchsia-200"
     },
     {
         "id": "2",
-        "name": "Space",
+        "name": "space",
         "color": "blue-600"
     },
     {
         "id": "3",
-        "name": "Rage",
+        "name": "rage",
         "color": "red-500"
     },
     {
         "id": "4",
-        "name": "Unsual",
+        "name": "unsual",
         "color": "lime-400"
     },
     {
         "id": "5",
-        "name": "Laugh",
+        "name": "laugh",
         "color": "orange-600"
     },
     {
         "id": "6",
-        "name": "Tears",
+        "name": "tears",
         "color": "sky-500"
     },
     {
         "id": "7",
-        "name": "Fear",
+        "name": "fear",
         "color": "purple-800"
     },
     {
         "id": "8",
-        "name": "Something",
+        "name": "something",
         "color": "rose-400"
     }
 ]

@@ -2,28 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
 
-
 body {
- @apply bg-slate-950 }
-
+  @apply bg-slate-950;
+}
 .icon-container {
-    transition: color 0.3s;
-  }
+  transition: color 0.3s;
+}
 
-  .group:hover .icon {
-    color: #881337;
-  }
+.group:hover .icon {
+  color: #881337;
+}
 
-  .icon {
-    @apply text-teal-200;
-  }
-
+.icon {
+  @apply text-teal-200;
+}
 
 .menu-item {
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    text-transform: uppercase;  
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
 }

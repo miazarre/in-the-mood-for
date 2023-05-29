@@ -2,12 +2,11 @@ import { Link } from 'react-router-dom';
 
 import moodsData from '../../data/moods.json';
 
-
 const Home = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <p className="text-center my-10 mx-10 text-4xl font-bold text-neutral-50 ">
+        <p className="text-center my-10 mx-5 sm:mx-10 text-lg sm:text-4xl font-bold text-neutral-50">
           An exquisite selection of movies and series, to spend an evening, an
           afternoon, or just a moment of experience. TW : this is only based on
           my personal taste.
@@ -19,7 +18,7 @@ const Home = () => {
           For more ideas : senscritique.com
         </a>
         <div>
-          <div className="menu flex justify-between gap-x-40 text-5xl">
+          <div className="menu flex flex-wrap justify-center gap-x-6 gap-y-4 sm:gap-x-8 sm:gap-y-6 text-lg sm:text-5xl">
             {moodsData.map((mood) => (
               <div className="menu-item" key={mood.id}>
                 <Link

@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 import Slider from 'react-slick';
 
@@ -9,9 +10,15 @@ import moviesData from '../../data/allMovies.json';
 
 const Mood = () => {
   const { mood } = useParams();
-  const filteredMovies = moviesData.filter((movie) =>
-    movie.moods.includes(mood)
-  );
+
+  const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    const filteredMovies = moviesData.filter((movie) =>
+      movie.moods.includes(mood)
+    );
+    setMovies(filteredMovies);
+  }, [mood]);
 
   const sliderSettings = {
     dots: true,
@@ -50,27 +57,29 @@ const Mood = () => {
 
   return (
     <div className="sans text-neutral-50">
-      <h1 className="text-center text-9xl font-extrabold uppercase hover:text-slate-600 pt-20">
+      <h1 className="text-center text-4xl sm:text-9xl font-extrabold uppercase hover:text-slate-600 pt-10 sm:pt-20">
         {mood}
       </h1>
-      <Slider {...sliderSettings}>
-        {filteredMovies.map((movie) => (
+      <Slider {...sliderSettings} className="mx-2 sm:mx-4 my-8">
+        {movies.map((movie) => (
           <div
             key={movie.id}
-            className=" max-w-sm flex flex-col items-center mx-4 my-8 rounded overflow-hidden shadow-lg"
+            className="max-w-xs sm:max-w-sm flex flex-col items-center mx-2 sm:mx-4 my-4 sm:my-8 rounded overflow-hidden shadow-lg"
           >
-            <div className="flex justify-center items-center w-50 h-45">
+            <div className="flex justify-center items-center w-full h-48 sm:h-56">
               <img
-                className="w-45 h-40 rounded"
+                className="object-contain h-full"
                 alt="Movie Poster"
                 src={movie.image}
               />
             </div>
-            <div className="px-6 py-4">
-              <h2 className="text-center text-3xl font-extrabold">
+            <div className="px-4 py-2 sm:px-6 sm:py-4">
+              <h2 className="text-center text-lg sm:text-3xl font-extrabold">
                 {movie.title}
               </h2>
-              <p className="text-center text-xl">{movie.description}</p>
+              <p className="text-center text-base sm:text-xl">
+                {movie.description}
+              </p>
             </div>
           </div>
         ))}
