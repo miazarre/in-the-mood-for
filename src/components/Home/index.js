@@ -21,19 +21,17 @@ const Home = () => {
         >
           For more ideas : senscritique.com
         </a>
-        <div>
-          <div className="menu flex flex-wrap justify-center gap-x-6 gap-y-4 sm:gap-x-8 sm:gap-y-6 text-lg sm:text-5xl">
-            {moodsData.map((mood) => (
-              <div className="menu-item" key={mood.id}>
-                <Link
-                  to={`/moods/${mood.name}`}
-                  className={`text-white hover:text-${mood.color}`}
-                >
-                  {mood.name}
-                </Link>
-              </div>
-            ))}
-          </div>
+        <div className="menu flex flex-wrap justify-center gap-x-6 gap-y-4 sm:gap-x-8 sm:gap-y-6 text-lg sm:text-5xl">
+          {moodsData.map((mood) => (
+            <div className="menu-item" key={mood.id}>
+              <Link
+                to={`/moods/${mood.name}`}
+                className={`text-white hover:text-${mood.color}`}
+              >
+                {mood.name}
+              </Link>
+            </div>
+          ))}
         </div>
       </div>
     </>
