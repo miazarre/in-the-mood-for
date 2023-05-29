@@ -21,7 +21,7 @@ const Home = () => {
         >
           For more ideas : senscritique.com
         </a>
-        <div className="menu flex flex-wrap justify-center gap-x-6 gap-y-4 sm:gap-x-8 sm:gap-y-6 text-lg sm:text-5xl">
+        <div className="menu flex justify-center gap-x-6 gap-y-4 sm:gap-x-8 sm:gap-y-6 text-lg sm:text-5xl">
           {moodsData.map((mood) => (
             <div className="menu-item" key={mood.id}>
               <Link
