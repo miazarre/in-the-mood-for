@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 
 import Slider from 'react-slick';
 
@@ -56,35 +57,40 @@ const Mood = () => {
   };
 
   return (
-    <div className="sans text-neutral-50">
-      <h1 className="text-center text-4xl sm:text-9xl font-extrabold uppercase hover:text-slate-600 pt-10 sm:pt-20">
-        {mood}
-      </h1>
-      <Slider {...sliderSettings} className="mx-2 sm:mx-4 my-8">
-        {movies.map((movie) => (
-          <div
-            key={movie.id}
-            className="max-w-xs sm:max-w-sm flex flex-col items-center mx-2 sm:mx-4 my-4 sm:my-8 rounded overflow-hidden shadow-lg"
-          >
-            <div className="flex justify-center items-center w-full h-48 sm:h-56">
-              <img
-                className="object-contain h-full"
-                alt="Movie Poster"
-                src={movie.image}
-              />
+    <>
+      <Helmet>
+        <title>In the mood for {mood}</title>
+      </Helmet>
+      <div className="sans text-neutral-50">
+        <h1 className="text-center text-4xl sm:text-9xl font-extrabold uppercase hover:text-slate-600 pt-10 sm:pt-20">
+          {mood}
+        </h1>
+        <Slider {...sliderSettings} className="mx-2 sm:mx-4 my-8">
+          {movies.map((movie) => (
+            <div
+              key={movie.id}
+              className="max-w-xs sm:max-w-sm flex flex-col items-center mx-2 sm:mx-4 my-4 sm:my-8 rounded overflow-hidden shadow-lg"
+            >
+              <div className="flex justify-center items-center w-full h-48 sm:h-56">
+                <img
+                  className="object-contain h-full"
+                  alt="Movie Poster"
+                  src={movie.image}
+                />
+              </div>
+              <div className="px-4 py-2 sm:px-6 sm:py-4">
+                <h2 className="text-center text-lg sm:text-3xl font-extrabold">
+                  {movie.title}
+                </h2>
+                <p className="text-center text-base sm:text-xl">
+                  {movie.description}
+                </p>
+              </div>
             </div>
-            <div className="px-4 py-2 sm:px-6 sm:py-4">
-              <h2 className="text-center text-lg sm:text-3xl font-extrabold">
-                {movie.title}
-              </h2>
-              <p className="text-center text-base sm:text-xl">
-                {movie.description}
-              </p>
-            </div>
-          </div>
-        ))}
-      </Slider>
-    </div>
+          ))}
+        </Slider>
+      </div>
+    </>
   );
 };
 

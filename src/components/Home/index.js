@@ -1,10 +1,14 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import moodsData from '../../data/moods.json';
 
 const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>In the mood for</title>
+      </Helmet>
       <div className="flex flex-col items-center justify-center">
         <p className="text-center my-10 mx-5 sm:mx-10 text-lg sm:text-4xl font-bold text-neutral-50">
           An exquisite selection of movies and series, to spend an evening, an

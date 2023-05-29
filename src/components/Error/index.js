@@ -1,10 +1,15 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import errorGif from '../../assets/error.gif';
 
 const Error = () => {
   return (
     <>
+      <Helmet>
+        <title>Error 404</title>
+        <meta name="robots" content="noindex" />
+      </Helmet>
       <div className="flex flex-col items-center justify-center">
         <img src={errorGif} alt="Error GIF" />
         <Link to="/" className="mt-10">
