@@ -11,12 +11,14 @@ import './index.css';
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/moods/:mood" element={<Mood />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
+      <main className="min-h-screen">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/moods/:mood" element={<Mood />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </main>
       <Footer />
     </BrowserRouter>
   );

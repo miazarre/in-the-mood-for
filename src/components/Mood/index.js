@@ -23,6 +23,9 @@ const Mood = () => {
 
   const sliderSettings = {
     dots: true,
+    appendDots: (dots) => (
+      <div style={{ position: 'relative', marging: '60px' }}>{dots}</div>
+    ),
     infinite: false,
     speed: 500,
     slidesToShow: 4,
@@ -62,9 +65,9 @@ const Mood = () => {
         <title>In the mood for {mood}</title>
       </Helmet>
       <div className="sans text-neutral-50">
-        <h1 className="text-center text-4xl sm:text-9xl font-extrabold uppercase hover:text-slate-600 pt-10 sm:pt-20">
+        <h2 className="text-center text-4xl sm:text-9xl font-extrabold uppercase pt-10 sm:pt-20">
           {mood}
-        </h1>
+        </h2>
         <Slider {...sliderSettings} className="mx-2 sm:mx-4 my-8">
           {movies.map((movie) => (
             <div
@@ -79,9 +82,9 @@ const Mood = () => {
                 />
               </div>
               <div className="px-4 py-2 sm:px-6 sm:py-4">
-                <h2 className="text-center text-lg sm:text-3xl font-extrabold">
+                <h3 className="text-center text-lg sm:text-3xl font-extrabold">
                   {movie.title}
-                </h2>
+                </h3>
                 <p className="text-center text-base sm:text-xl">
                   {movie.description}
                 </p>
