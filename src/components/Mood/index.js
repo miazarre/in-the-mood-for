@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
 import Slider from 'react-slick';
+import Error from '../Error';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -55,6 +56,10 @@ const Mood = () => {
       },
     ],
   };
+
+  if (movies.length === 0) {
+    return <Error />;
+  }
 
   return (
     <>
