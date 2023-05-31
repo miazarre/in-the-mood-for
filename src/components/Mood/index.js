@@ -14,13 +14,23 @@ const Mood = () => {
   const { mood } = useParams();
 
   const [movies, setMovies] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const filteredMovies = moviesData.filter((movie) =>
       movie.moods.includes(mood)
     );
     setMovies(filteredMovies);
+    setLoading(false);
   }, [mood]);
+
+  if (loading) {
+    return null;
+  }
+
+  if (!movies.length) {
+    return <Error />;
+  }
 
   const sliderSettings = {
     dots: true,
@@ -56,10 +66,6 @@ const Mood = () => {
       },
     ],
   };
-
-  if (movies.length === 0) {
-    return <Error />;
-  }
 
   return (
     <>
