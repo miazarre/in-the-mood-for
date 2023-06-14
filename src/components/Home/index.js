@@ -16,7 +16,9 @@ const Home = () => {
           my personal taste.
         </p>
         <a
-          href="sencritique.com"
+          href="https://www.senscritique.com/Mia_G"
+          target="_blank"
+          rel="noopener noreferrer"
           className="my-10 text-neutral-50 hover:text-teal-200"
         >
           For more ideas : senscritique.com
